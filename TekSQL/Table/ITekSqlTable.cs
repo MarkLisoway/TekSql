@@ -1,9 +1,13 @@
-using TekSQL.Entity;
+using TekSQL.Expression;
 
 namespace TekSQL.Table
 {
-    public interface ITekSqlTable
+    /// <summary>
+    /// Represents a table in the database as well as
+    /// any configurations on the table itself.
+    /// </summary>
+    public interface ITekSqlTable : ITekSqlExpression
     {
-        ITekSqlEntity Entity { get; }
+        string TableName { get; }
     }
 }

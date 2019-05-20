@@ -2,16 +2,16 @@ namespace TekSQL.Expression
 {
     public abstract class TekSqlExpressionBase : ITekSqlExpression
     {
-        protected TekSqlExpressionBase()
+        protected TekSqlExpressionBase(string expressionName)
         {
-            Alias = null;
+            ExpressionName = expressionName;
         }
-
-        public string Alias { get; private set; }
-
-        public void As(string newAlias)
+     
+        public string ExpressionName { get; private set; }
+        
+        public void As(string newName)
         {
-            Alias = newAlias;
+            ExpressionName = newName;
         }
 
         public abstract string ToPartialQueryString();

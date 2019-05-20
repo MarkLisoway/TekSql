@@ -3,9 +3,14 @@ using TekSQL.Property;
 
 namespace TekSQL.Entity
 {
+    /// <summary>
+    /// Represents the characteristics of an entity within the database.
+    /// </summary>
     public interface ITekSqlEntity
     {
-        string Name { get; }
-        IEnumerable<ITekSqlProperty> Properties { get; }
+        /// <summary>
+        /// Name of the entity. NOT the name of the table.
+        /// </summary>
+        string EntityName { get; }
     }
 }

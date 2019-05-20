@@ -4,13 +4,14 @@ namespace TekSQL.Property
 {
     public abstract class TekSqlPropertyBase : TekSqlExpressionBase, ITekSqlProperty
     {
-        protected TekSqlPropertyBase(string name, string type)
+        protected TekSqlPropertyBase(string propertyName, string propertyType) : base(propertyName)
         {
-            Name = name;
-            Type = type;
+            PropertyName = propertyName;
+            PropertyType = propertyType;
         }
 
-        public string Name { get; }
-        public string Type { get; }
+        public string PropertyName { get; }
+        
+        public string PropertyType { get; }
     }
 }
