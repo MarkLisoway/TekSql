@@ -1,16 +1,12 @@
-using TekSQL.Expression;
-
 namespace TekSQL.Table
 {
-    public abstract class TekSqlTableBase : TekSqlExpressionBase, ITekSqlTable
+    public abstract class TekSqlTableBase : ITekSqlTable
     {
-        protected TekSqlTableBase(string tableName) : base(tableName)
+        protected TekSqlTableBase(string tableName)
         {
             TableName = tableName;
         }
 
         public string TableName { get; }
-
-        public abstract override string ToPartialQueryString();
     }
 }

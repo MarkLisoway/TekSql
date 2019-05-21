@@ -1,7 +1,6 @@
 namespace TekSQL.Expression.PostgreSql
 {
-    public class TekSqlPostgreSqlExpression
+    public abstract class TekSqlPostgreSqlExpression : ITekSqlPostgreSqlExpression
     {
-        
     }
 }

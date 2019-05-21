@@ -6,7 +6,7 @@ namespace TekSQL.Entity
         {
             EntityName = entityName;
         }
-        
+
         public string EntityName { get; }
     }
 }

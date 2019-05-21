@@ -6,9 +6,9 @@ namespace TekSQL.Expression
         {
             ExpressionName = expressionName;
         }
-     
+
         public string ExpressionName { get; private set; }
-        
+
         public void As(string newName)
         {
             ExpressionName = newName;
