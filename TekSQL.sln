@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TekSQL", "TekSQL\TekSQL.csproj", "{F26B0B27-8052-4ABE-AF39-7F98F57D5F0D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TekSQLTest", "TekSQLTest\TekSQLTest.csproj", "{DFC9A6EA-D102-4AFD-BEAA-08B862454480}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{F26B0B27-8052-4ABE-AF39-7F98F57D5F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F26B0B27-8052-4ABE-AF39-7F98F57D5F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F26B0B27-8052-4ABE-AF39-7F98F57D5F0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFC9A6EA-D102-4AFD-BEAA-08B862454480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFC9A6EA-D102-4AFD-BEAA-08B862454480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFC9A6EA-D102-4AFD-BEAA-08B862454480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFC9A6EA-D102-4AFD-BEAA-08B862454480}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

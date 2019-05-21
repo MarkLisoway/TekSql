@@ -3,7 +3,7 @@ namespace TekSQL.Property
     /// <summary>
     ///     Represents a single property of an entity that is stored in a database.
     /// </summary>
-    public interface ITekSqlProperty
+    public interface ITqlProperty
     {
         /// <summary>
         ///     Represents the name of this property in the database.

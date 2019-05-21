@@ -1,8 +1,8 @@
 namespace TekSQL.Property
 {
-    public abstract class TekSqlPropertyBase : ITekSqlProperty
+    public abstract class TqlPropertyBase : ITqlProperty
     {
-        protected TekSqlPropertyBase(string propertyName, string propertyType)
+        protected TqlPropertyBase(string propertyName, string propertyType)
         {
             PropertyName = propertyName;
             PropertyType = propertyType;
