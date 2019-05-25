@@ -1,5 +1,5 @@
 using NUnit.Framework;
-using TekSQL.Property.PostgreSql;
+using TekSQL;
 
 namespace TekSQLTest
 {
@@ -21,7 +21,10 @@ namespace TekSQLTest
     {
         static void Test()
         {
-          TqlPostgreSql.CreateProperty("test", )
+            TqlPostgre.Field
+                .Name("test")
+                .Type(TqlPostgre.FieldTypes.BigInt)
+                .Create();
         }
     }
 }
