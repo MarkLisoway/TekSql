@@ -1,6 +1,6 @@
 namespace TekSQL.Field
 {
-    public interface ITqlField
+    public interface IField
     {
         string Name { get; }
         

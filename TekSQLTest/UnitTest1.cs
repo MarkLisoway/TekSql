@@ -25,7 +25,10 @@ namespace TekSQLTest
     {
         public static void Test()
         {
-            
+            var TestField = TqlMySql.Field
+                .Name("TestField")
+                .Type(TqlMySql.FieldTypes.Char(16))
+                .Create();
         }
     }
 }

@@ -1,8 +1,8 @@
 namespace TekSQL.Field
 {
-    public abstract class TqlFieldBase : ITqlField
+    public abstract class FieldBase : IField
     {
-        protected TqlFieldBase(string name, string type)
+        protected FieldBase(string name, string type)
         {
             Name = name;
             Type = type;
