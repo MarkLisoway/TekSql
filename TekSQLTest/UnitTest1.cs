@@ -1,5 +1,8 @@
+using System;
 using NUnit.Framework;
 using TekSQL;
+using TekSQL.Field;
+using TekSQL.FieldType;
 
 namespace TekSQLTest
 {
@@ -13,18 +16,16 @@ namespace TekSQLTest
         [Test]
         public void Test1()
         {
+            MyClass.Test();
             Assert.Pass();
         }
     }
 
     public class MyClass
     {
-        static void Test()
+        public static void Test()
         {
-            TqlPostgre.Field
-                .Name("test")
-                .Type(TqlPostgre.FieldTypes.BigInt)
-                .Create();
+            
         }
     }
 }
